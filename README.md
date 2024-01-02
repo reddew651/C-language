@@ -1,2 +1,2 @@
-# symmetrical-octo-spork
-my c language homework, and I choose some important and difficult
+# Sun Yat-Sen University c language
+the c language homework in 2023
