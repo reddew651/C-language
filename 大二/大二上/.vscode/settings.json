@@ -1,26 +1,26 @@
 {   
-    "editor.smoothScrolling": true,
-    "editor.cursorBlinking": "expand",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,// 平滑滚动
+    "editor.cursorBlinking": "expand",// 光标闪烁
+    "editor.cursorSmoothCaretAnimation": "on",// 光标动画
+    "workbench.list.smoothScrolling": true,// 平滑滚动
 
-    "editor.mouseWheelZoom": true,
+    "editor.mouseWheelZoom": true,// 鼠标滚轮缩放
 
-    "editor.guides.bracketPairs": true,
-    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,// 高亮匹配的括号
+    "editor.bracketPairColorization.enabled": true,// 高亮匹配的括号
 
      // 控制活动代码段是否阻止快速建议
-     "editor.suggest.snippetsPreventQuickSuggestions": false,
+     "editor.suggest.snippetsPreventQuickSuggestions": false,// 快速建议
      // 除了 `Tab` 键以外， `Enter` 键是否同样可以接受建议
      // 这能减少“插入新行”和“接受建议”命令之间的歧义
      "editor.acceptSuggestionOnEnter": "smart",
      // 代码补全列表中，优先选择最近的建议
      "editor.suggestSelection": "recentlyUsedByPrefix",
      
-     "editor.autoClosingBrackets": "beforeWhitespace",
-     "editor.autoClosingDelete": "always",
-     "editor.autoClosingOvertype": "always",
-     "editor.autoClosingQuotes": "beforeWhitespace",
+     "editor.autoClosingBrackets": "beforeWhitespace",// 自动闭合括号
+     "editor.autoClosingDelete": "always",// 自动删除括号
+     "editor.autoClosingOvertype": "always",// 自动覆盖括号
+     "editor.autoClosingQuotes": "beforeWhitespace",// 自动闭合引号
 
      "editor.wordWrap": "on",
     "editor.lineHeight": 1.5,
@@ -39,9 +39,9 @@
     
     "files.autoGuessEncoding": true,
     
-    "search.searchEditor.singleClickBehaviour": "peekDefinition",
+    "search.searchEditor.singleClickBehaviour": "peekDefinition",// 单击搜索结果打开文件
 
-    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.enabled": true,// 粘性滚动
 
     "terminal.integrated.shellIntegration.suggestEnabled": true,
     
