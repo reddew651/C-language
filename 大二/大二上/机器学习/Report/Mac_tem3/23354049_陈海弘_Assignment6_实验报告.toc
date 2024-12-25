@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}摘要}{3}{}%
+\contentsline {section}{\numberline {2}前置准备}{3}{}%
+\contentsline {subsection}{\numberline {2.1}数据读取}{3}{}%
+\contentsline {subsection}{\numberline {2.2}信息熵计算}{3}{}%
+\contentsline {subsection}{\numberline {2.3}维度划分}{4}{}%
+\contentsline {section}{\numberline {3}ID3算法}{6}{}%
+\contentsline {section}{\numberline {4}C4.5算法}{8}{}%
+\contentsline {section}{\numberline {5}CART算法}{11}{}%
+\contentsline {section}{\numberline {6}实验结果}{14}{}%
+\contentsline {section}{\numberline {7}决策树}{14}{}%
+\contentsline {section}{\numberline {8}总结}{19}{}%

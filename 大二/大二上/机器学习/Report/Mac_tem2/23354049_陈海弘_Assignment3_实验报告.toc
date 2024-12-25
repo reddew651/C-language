@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}摘要}{3}{}%
+\contentsline {section}{\numberline {2}线性可分支持向量机与硬间隔最大化}{3}{}%
+\contentsline {subsection}{\numberline {2.1}数据读入}{3}{}%
+\contentsline {subsection}{\numberline {2.2}对偶问题求解}{4}{}%
+\contentsline {subsection}{\numberline {2.3}计算 $\bm {\omega }^*$ 和 $b^*$}{8}{}%
+\contentsline {subsection}{\numberline {2.4}绘制散点图与决策边界}{10}{}%
+\contentsline {section}{\numberline {3}线性支持向量机与软间隔最大化}{12}{}%
+\contentsline {subsection}{\numberline {3.1}数据读入}{12}{}%
+\contentsline {subsection}{\numberline {3.2}对偶问题求解}{13}{}%
+\contentsline {subsection}{\numberline {3.3}计算 $\bm {\omega }^*$ 和 $b^*$}{15}{}%
+\contentsline {subsection}{\numberline {3.4}绘制散点图与决策边界}{17}{}%
+\contentsline {section}{\numberline {4}非线性支持向量机与核函数}{19}{}%
+\contentsline {subsection}{\numberline {4.1}数据读入}{19}{}%
+\contentsline {subsection}{\numberline {4.2}对偶问题求解}{19}{}%
+\contentsline {subsection}{\numberline {4.3}选择核函数求解对偶问题}{20}{}%
+\contentsline {paragraph}{Step 1: 构造核矩阵 $K$}{20}{}%
+\contentsline {paragraph}{Step 2: 对偶问题的优化目标}{20}{}%
+\contentsline {paragraph}{Step 3: 转换为 \texttt {cvxopt} 格式并求解}{20}{}%
+\contentsline {paragraph}{Step 4: 求解对偶问题}{21}{}%
+\contentsline {paragraph}{Step 5: 实现与运行}{21}{}%
+\contentsline {subsection}{\numberline {4.4}b的计算}{23}{}%
+\contentsline {subsection}{\numberline {4.5}预测准确率计算}{25}{}%
+\contentsline {section}{\numberline {5}实验总结}{27}{}%

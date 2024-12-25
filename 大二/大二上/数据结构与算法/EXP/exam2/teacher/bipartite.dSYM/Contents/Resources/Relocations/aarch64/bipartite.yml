@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/chenhaihong/Desktop/Code_cach/DS/EXP/exm2/teacher/bipartite'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z3dfsii, symObjAddr: 0x0, symBinAddr: 0x100003C24, symSize: 0x14C }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _edge, symObjAddr: 0xB48, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x76, offset: 0x76, size: 0x8, addend: 0x0, symName: _color, symObjAddr: 0x9DBCC, symBinAddr: 0x1000A5084, symSize: 0x0 }
+  - { offsetInCU: 0x98, offset: 0x98, size: 0x8, addend: 0x0, symName: _n, symObjAddr: 0x9E210, symBinAddr: 0x1000A56C8, symSize: 0x0 }
+  - { offsetInCU: 0xA8, offset: 0xA8, size: 0x8, addend: 0x0, symName: __Z3dfsii, symObjAddr: 0x0, symBinAddr: 0x100003C24, symSize: 0x14C }
+  - { offsetInCU: 0xFE, offset: 0xFE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x14C, symBinAddr: 0x100003D70, symSize: 0x208 }
+...

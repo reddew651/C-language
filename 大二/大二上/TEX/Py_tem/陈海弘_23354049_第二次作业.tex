@@ -1,0 +1,80 @@
+\documentclass[12pt,a4paper,oneside]{article}
+\usepackage{graphicx,setspace,float,fancyhdr,listings,xcolor,placeins,xeCJK,tocloft}
+\usepackage[dvipsnames]{xcolor}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % Enable dot leaders in TOC
+\renewcommand{\cftdotsep}{1} % Adjust dot spacing
+
+\date{\Large 2024.11.11}
+\author{陈海弘}
+
+\setCJKmainfont[AutoFakeBold=3]{STFangsong} % CJK Font Setup
+\setcounter{tocdepth}{3} % Set TOC depth
+\setstretch{1.25} % Line spacing
+
+% Page header and footer setup
+\setlength{\headheight}{13.6pt}
+\addtolength{\topmargin}{-1.6pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\small Python} % Center header
+\fancyfoot[C]{\small \thepage} % Center footer
+
+% Code highlighting setup
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\bfseries\color{NavyBlue},
+    commentstyle=\itshape\color{red!50!green!50!blue!50},
+    stringstyle=\bfseries\color{PineGreen!90!black},
+    emph={self}, 
+    emphstyle=\bfseries\color{Rhodamine},
+    backgroundcolor=\color{black!3},
+    frame=shadowbox,
+    frameround=fttt,
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=5pt,
+    breaklines=true,
+    columns=flexible,
+    xleftmargin=1em,
+    xrightmargin=-2em,
+    aboveskip=1em,
+    framexleftmargin=2em,
+    escapeinside=``,
+}
+
+% Title setup
+\title{
+    \vspace*{-2cm}
+    \includegraphics[width=0.8\textwidth]{SYSULogo.pdf} \\[1em]
+    \vfill
+    \LARGE \textbf{Python第二次大作业} \\[1em]
+    \Large
+    \begin{tabular}{rl}
+        \textbf{姓名:} & \textbf{陈海弘} \\
+        \textbf{学号:} & \textbf{23354049}
+    \end{tabular}
+    \vfill
+}
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+
+\newpage
+\section{摘要}
+\section{题目}
+\subsection{}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.1874\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{image/1} % Replace with your image file
+        \caption{结果}
+        \label{fig:image1}
+    \end{minipage}
+\end{figure}
+
+\end{document}

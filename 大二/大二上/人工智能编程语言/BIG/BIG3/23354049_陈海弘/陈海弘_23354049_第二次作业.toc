@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {1}实验目的}{3}{}%
+\contentsline {section}{\numberline {2}最速下降法原理}{3}{}%
+\contentsline {section}{\numberline {3}最速下降法实现}{4}{}%
+\contentsline {section}{\numberline {4}总结}{9}{}%

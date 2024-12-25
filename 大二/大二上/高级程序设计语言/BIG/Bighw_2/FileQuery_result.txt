@@ -1,0 +1,176 @@
+=== Original sentences ===
+o captain my captain our fearful trip is done, the ship has weather d every rack, the prize we sought is won, the port is near, the bells i hear, the people all exulting, while follow eyes the steady keel, the vessel grim and daring but o heart heart heart o the bleeding drops of red, where on the deck my captain lies, fallen cold and dead. o captain my captain rise up and hear the bells rise up for you the flag is flung for you the bugle trills, for you bouquets and ribbon d wreaths for you the shores a crowding, for you they call, the swaying mass, their eager faces turning here captain dear father this arm beneath your head it is some dream that on the deck, you ve fallen cold and dead. my captain does not answer, his lips are pale and still, my father does not feel my arm, he has no pulse nor will, the ship is anchor d safe and sound, its voyage closed and done, from fearful trip the victor ship comes in with object won exult o shores, and ring o bells but i with mournful tread, walk the deck my captain lies, fallen cold and dead. 
+
+=== Word counts ===
+a: 1
+all: 1
+anchor: 1
+and: 10
+answer,: 1
+are: 1
+arm: 1
+arm,: 1
+bells: 3
+beneath: 1
+bleeding: 1
+bouquets: 1
+bugle: 1
+but: 2
+call,: 1
+captain: 8
+closed: 1
+cold: 3
+comes: 1
+crowding,: 1
+d: 3
+daring: 1
+dead.: 3
+dear: 1
+deck: 2
+deck,: 1
+does: 2
+done,: 2
+dream: 1
+drops: 1
+eager: 1
+every: 1
+exult: 1
+exulting,: 1
+eyes: 1
+faces: 1
+fallen: 3
+father: 2
+fearful: 2
+feel: 1
+flag: 1
+flung: 1
+follow: 1
+for: 5
+from: 1
+grim: 1
+has: 2
+he: 1
+head: 1
+hear: 1
+hear,: 1
+heart: 3
+here: 1
+his: 1
+i: 2
+in: 1
+is: 6
+it: 1
+its: 1
+keel,: 1
+lies,: 2
+lips: 1
+mass,: 1
+mournful: 1
+my: 7
+near,: 1
+no: 1
+nor: 1
+not: 2
+o: 6
+object: 1
+of: 1
+on: 2
+our: 1
+pale: 1
+people: 1
+port: 1
+prize: 1
+pulse: 1
+rack,: 1
+red,: 1
+ribbon: 1
+ring: 1
+rise: 2
+safe: 1
+ship: 3
+shores: 1
+shores,: 1
+some: 1
+sought: 1
+sound,: 1
+steady: 1
+still,: 1
+swaying: 1
+that: 1
+the: 18
+their: 1
+they: 1
+this: 1
+tread,: 1
+trills,: 1
+trip: 2
+turning: 1
+up: 2
+ve: 1
+vessel: 1
+victor: 1
+voyage: 1
+walk: 1
+we: 1
+weather: 1
+where: 1
+while: 1
+will,: 1
+with: 2
+won: 1
+won,: 1
+wreaths: 1
+you: 6
+your: 1
+
+=== Top 3 words context ===
+
+Word: the (frequency: 18)
+done, the ship
+rack, the prize
+won, the port
+near, the bells
+hear, the people
+eyes the steady
+keel, the vessel
+o the bleeding
+on the deck
+hear the bells
+you the flag
+you the bugle
+you the shores
+call, the swaying
+on the deck,
+will, the ship
+trip the victor
+walk the deck
+
+Word: and (frequency: 10)
+grim and daring
+cold and dead.
+up and hear
+bouquets and ribbon
+cold and dead.
+pale and still,
+safe and sound,
+closed and done,
+shores, and ring
+cold and dead.
+
+Word: captain (frequency: 8)
+o captain my
+my captain our
+my captain lies,
+o captain my
+my captain rise
+here captain dear
+my captain does
+my captain lies,
+
+=== Finding 'captain' ===
+Line 1: o captain my captain our fearful trip is done, the ship has weather d every rack, the prize we sought is won, the port is near, the bells i hear, the people all exulting, while follow eyes the steady keel, the vessel grim and daring but o heart heart heart o the bleeding drops of red, where on the deck my captain lies, fallen cold and dead. o captain my captain rise up and hear the bells rise up for you the flag is flung for you the bugle trills, for you bouquets and ribbon d wreaths for you the shores a crowding, for you they call, the swaying mass, their eager faces turning here captain dear father this arm beneath your head it is some dream that on the deck, you ve fallen cold and dead. my captain does not answer, his lips are pale and still, my father does not feel my arm, he has no pulse nor will, the ship is anchor d safe and sound, its voyage closed and done, from fearful trip the victor ship comes in with object won exult o shores, and ring o bells but i with mournful tread, walk the deck my captain lies, fallen cold and dead. 
+
+=== Replacing 'captain' with 'John Keating' ===
+
+=== Replaced sentences ===
+o John Keating my John Keating our fearful trip is done, the ship has weather d every rack, the prize we sought is won, the port is near, the bells i hear, the people all exulting, while follow eyes the steady keel, the vessel grim and daring but o heart heart heart o the bleeding drops of red, where on the deck my John Keating lies, fallen cold and dead. o John Keating my John Keating rise up and hear the bells rise up for you the flag is flung for you the bugle trills, for you bouquets and ribbon d wreaths for you the shores a crowding, for you they call, the swaying mass, their eager faces turning here John Keating dear father this arm beneath your head it is some dream that on the deck, you ve fallen cold and dead. my John Keating does not answer, his lips are pale and still, my father does not feel my arm, he has no pulse nor will, the ship is anchor d safe and sound, its voyage closed and done, from fearful trip the victor ship comes in with object won exult o shores, and ring o bells but i with mournful tread, walk the deck my John Keating lies, fallen cold and dead. 

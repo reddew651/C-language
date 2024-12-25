@@ -1,0 +1,15 @@
+Apple: 5
+Cherry: 5
+Mango: 5
+Orange: 5
+Papaya: 5
+Peach: 5
+Pineapple: 5
+banana: 5
+blueberry: 5
+grape: 5
+kiwi: 5
+lemon: 5
+plum: 5
+strawberry: 5
+watermelon: 5

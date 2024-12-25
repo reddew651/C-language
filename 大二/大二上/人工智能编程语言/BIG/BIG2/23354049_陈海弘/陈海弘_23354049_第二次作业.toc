@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}摘要}{3}{}%
+\contentsline {section}{\numberline {2}题目}{3}{}%
+\contentsline {subsection}{\numberline {2.1}读取统计}{3}{}%
+\contentsline {subsection}{\numberline {2.2}学生成绩分析}{4}{}%
+\contentsline {subsection}{\numberline {2.3}账户注册登录系统}{8}{}%
+\contentsline {section}{\numberline {3}总结}{14}{}%

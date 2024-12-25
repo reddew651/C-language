@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}摘要}{3}{}%
+\contentsline {section}{\numberline {2}神经网络中的前向传播和后向传播}{3}{}%
+\contentsline {subsection}{\numberline {2.1}实验要求}{3}{}%
+\contentsline {subsection}{\numberline {2.2}数据读取}{3}{}%
+\contentsline {subsection}{\numberline {2.3}神经网络搭建}{3}{}%
+\contentsline {subsection}{\numberline {2.4}训练}{5}{}%
+\contentsline {subsection}{\numberline {2.5}训练损失测试损失展示}{7}{}%
+\contentsline {section}{\numberline {3}总结}{8}{}%

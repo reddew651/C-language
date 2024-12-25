@@ -1,0 +1,21 @@
+Original Shapes:
+Circle: Center (4, 2), Radius: 2, Area: 12.56, Circumference: 12.56
+Circle: Center (1, 2), Radius: 2, Area: 12.56, Circumference: 12.56
+Polygon with edges:
+  (1, 2) - (3, 2)
+  (3, 2) - (3, 4)
+  (3, 4) - (1, 2)
+Area: 2, Circumference: 6.82843
+Polygon with edges:
+  (2, 2) - (4, 2)
+  (4, 2) - (4, 3)
+  (4, 3) - (3, 3)
+  (3, 3) - (2, 2)
+Area: 1.5, Circumference: 5.41421
+Polygon with edges:
+  (3, 2) - (4, 2)
+  (4, 2) - (5, 6)
+  (5, 6) - (3, 4)
+  (3, 4) - (3, 2)
+Area: 4, Circumference: 9.95153
+Circle 0 and Circle 1 intersect.

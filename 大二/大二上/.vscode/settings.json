@@ -1,0 +1,123 @@
+{   
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.list.smoothScrolling": true,
+
+    "editor.mouseWheelZoom": true,
+
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+
+     // 控制活动代码段是否阻止快速建议
+     "editor.suggest.snippetsPreventQuickSuggestions": false,
+     // 除了 `Tab` 键以外， `Enter` 键是否同样可以接受建议
+     // 这能减少“插入新行”和“接受建议”命令之间的歧义
+     "editor.acceptSuggestionOnEnter": "smart",
+     // 代码补全列表中，优先选择最近的建议
+     "editor.suggestSelection": "recentlyUsedByPrefix",
+     
+     "editor.autoClosingBrackets": "beforeWhitespace",
+     "editor.autoClosingDelete": "always",
+     "editor.autoClosingOvertype": "always",
+     "editor.autoClosingQuotes": "beforeWhitespace",
+
+     "editor.wordWrap": "on",
+    "editor.lineHeight": 1.5,
+
+    "explorer.compactFolders": true,
+    "notebook.compactView": true,
+    
+    "window.density.editorTabHeight": "compact",
+
+    "javascript.format.semicolons": "remove",
+    "typescript.format.semicolons": "remove",
+
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+
+    "workbench.startupEditor": "none",
+    
+    "files.autoGuessEncoding": true,
+    
+    "search.searchEditor.singleClickBehaviour": "peekDefinition",
+
+    "editor.stickyScroll.enabled": true,
+
+    "terminal.integrated.shellIntegration.suggestEnabled": true,
+    
+    "files.associations": {
+        "stack": "cpp",
+        "ostream": "cpp",
+        "new": "cpp",
+        "iostream": "cpp",
+        "vector": "cpp",
+        "__bit_reference": "cpp",
+        "__config": "cpp",
+        "__hash_table": "cpp",
+        "__locale": "cpp",
+        "__node_handle": "cpp",
+        "__split_buffer": "cpp",
+        "__threading_support": "cpp",
+        "__verbose_abort": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "execution": "cpp",
+        "initializer_list": "cpp",
+        "ios": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "locale": "cpp",
+        "mutex": "cpp",
+        "optional": "cpp",
+        "ratio": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "tuple": "cpp",
+        "typeinfo": "cpp",
+        "unordered_map": "cpp",
+        "variant": "cpp",
+        "algorithm": "cpp",
+        "__tree": "cpp",
+        "fstream": "cpp",
+        "iomanip": "cpp",
+        "map": "cpp",
+        "set": "cpp"
+    },
+    "latex-workshop.latex.build.selectedRecipe": "xelatex",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "--synctex=1",
+                "--interaction=nonstopmode",
+                "--file-line-error",
+                "%DOC%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "xelatex",
+            "tools": ["xelatex"]
+        }
+    ]
+}
