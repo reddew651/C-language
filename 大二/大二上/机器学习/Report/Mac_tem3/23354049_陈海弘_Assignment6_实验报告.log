@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.4)  22 DEC 2024 17:29
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.4)  26 DEC 2024 09:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/chenhaihong/Desktop/Code_cach/ML/Report/Mac_tem3/23354049_陈海弘_Assignment6_实验报告
-(/Users/chenhaihong/Desktop/Code_cach/ML/Report/Mac_tem3/23354049_陈海弘_Assignment6_实验报告.tex
+**/Users/chenhaihong/Documents/GitHub/SYSU_ISE_garbage/大二/大二上/机器学习/Report/Mac_tem3/23354049_陈海弘_Assignment6_实验报告
+(/Users/chenhaihong/Documents/GitHub/SYSU_ISE_garbage/大二/大二上/机器学习/Report/Mac_tem3/23354049_陈海弘_Assignment6_实验报告.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -470,7 +470,7 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                it.
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 89.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 88.
 [3]
 File: image/1.png Graphic file (type bmp)
 <image/1.png>
@@ -483,18 +483,18 @@ File: image/3.png Graphic file (type bmp)
  [6] [7] [8] [9] [10] [11]
 
 LaTeX Font Warning: Font shape `TU/STFangsong(0)/m/it' undefined
-(Font)              using `TU/STFangsong(0)/m/n' instead on input line 420.
+(Font)              using `TU/STFangsong(0)/m/n' instead on input line 419.
 
 [12]
 File: image/4.png Graphic file (type bmp)
 <image/4.png>
  [13] [14]
-Overfull \hbox (90.33463pt too wide) detected at line 499
+Overfull \hbox (90.33463pt too wide) detected at line 498
 [] \OT1/cmr/m/n/12 = [] []
  []
 
 [15]
-Overfull \hbox (47.09888pt too wide) detected at line 527
+Overfull \hbox (47.09888pt too wide) detected at line 526
 [] \OT1/cmr/m/n/12 = [](\OML/cmm/m/it/12 isLeaf \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 ; label \OT1/cmr/m/n/12 = [][[](\OML/cmm/m/it/12 counts\OT1/cmr/m/n/12 )])
  []
 
@@ -513,11 +513,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  9649 strings out of 474773
- 229719 string characters out of 5757725
+ 229794 string characters out of 5757725
  2122839 words of memory out of 5000000
  31640 multiletter control sequences out of 15000+600000
  575876 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 74i,12n,81p,378b,1853s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,12n,81p,403b,1853s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 23354049_陈海弘_Assignment6_实验报告.pdf (20 pages).

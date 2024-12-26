@@ -77,8 +77,7 @@ Sex，SibSp，Parch，Pclass，Survived。数据集中已经没有缺失值和�
 
 \subsection{信息熵计算}
 \qquad 计算信息熵公式:
-某数组包含K个不同的取值，样本为第k(k=1,2,...,K)个值的数量所占比例为p\_k,
-则其信息熵为$$Ent=-\sum_{k=1}^K p_k log_2 p_k$$
+某数组包含K个不同的取值，样本为第k(k=1,2,...,K)个值的数量所占比例为p\_k, 则其信息熵为$$Ent=-\sum_{k=1}^K p_k log_2 p_k$$
 
 定义一个函数entropy，接受label数组，然后使用array将输入的数组转换为numpy，.flatten（）将数组拉平，
 使用unique函数找到不同的取值，然后统计每个唯一值在数组中出现的次数。
