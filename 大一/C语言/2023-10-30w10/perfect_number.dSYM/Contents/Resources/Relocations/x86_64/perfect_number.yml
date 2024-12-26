@@ -1,7 +1,0 @@
----
-triple:          'x86_64-apple-darwin'
-binary-path:     '/Users/chenhaihong/Desktop/code/c/2023-10-30_10/3/perfect_number'
-relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E90, symSize: 0xF6 }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E90, symSize: 0xF6 }
-...
