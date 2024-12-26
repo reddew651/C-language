@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}实验目的}{3}{}%
+\contentsline {section}{\numberline {2}K-means算法基本原理}{3}{}%
+\contentsline {subsection}{\numberline {2.1}K-means}{4}{}%
+\contentsline {subsection}{\numberline {2.2}算法思路}{4}{}%
+\contentsline {subsection}{\numberline {2.3}初代}{4}{}%
+\contentsline {subsection}{\numberline {2.4}改进思路}{6}{}%
+\contentsline {section}{\numberline {3}实验总结}{10}{}%

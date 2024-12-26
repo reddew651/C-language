@@ -25,15 +25,15 @@
      "editor.wordWrap": "on",
     "editor.lineHeight": 1.5,
 
-    "explorer.compactFolders": true,
-    "notebook.compactView": true,
+    "explorer.compactFolders": true,// 文件夹紧凑
+    "notebook.compactView": true,// 笔记本紧凑
     
-    "window.density.editorTabHeight": "compact",
+    "window.density.editorTabHeight": "compact",// 编辑器标签高度
 
-    "javascript.format.semicolons": "remove",
-    "typescript.format.semicolons": "remove",
+    "javascript.format.semicolons": "remove",// 移除分号
+    "typescript.format.semicolons": "remove",// 移除分号
 
-    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.inlayHints.enumMemberValues.enabled": true,// 枚举值提示
 
     "workbench.startupEditor": "none",
     
