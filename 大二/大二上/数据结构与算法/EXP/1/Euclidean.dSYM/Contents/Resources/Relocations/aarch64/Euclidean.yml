@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/chenhaihong/Documents/GitHub/SYSU_ISE_garbage/大二/大二上/数据结构与算法/EXP/1/Euclidean"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z3gcdii, symObjAddr: 0x0, symBinAddr: 0x100003C68, symSize: 0x68 }
+  - { offsetInCU: 0x4479, offset: 0x4479, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0xFC, symBinAddr: 0x100003D64, symSize: 0x58 }
+  - { offsetInCU: 0x44B9, offset: 0x44B9, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB8ue170006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x1E0, symBinAddr: 0x100003E48, symSize: 0x2C }
+  - { offsetInCU: 0x6E81, offset: 0x6E81, size: 0x8, addend: 0x0, symName: __Z3gcdii, symObjAddr: 0x0, symBinAddr: 0x100003C68, symSize: 0x68 }
+  - { offsetInCU: 0x6EBB, offset: 0x6EBB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x68, symBinAddr: 0x100003CD0, symSize: 0x68 }
+  - { offsetInCU: 0x6F9E, offset: 0x6F9E, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ue170006EPFRS3_S4_E, symObjAddr: 0xD0, symBinAddr: 0x100003D38, symSize: 0x2C }
+  - { offsetInCU: 0x6FD0, offset: 0x6FD0, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ue170006Ec, symObjAddr: 0x154, symBinAddr: 0x100003DBC, symSize: 0x8C }
+  - { offsetInCU: 0x703C, offset: 0x703C, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB8ue170006Ec, symObjAddr: 0x20C, symBinAddr: 0x100003E74, symSize: 0x38 }
+...

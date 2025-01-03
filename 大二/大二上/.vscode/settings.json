@@ -1,4 +1,10 @@
 {   
+    "files.autoSave": "afterDelay",// 自动保存
+    "files.autoSaveDelay": 1000,
+    "[markdown]": {
+      "files.autoSave": "afterDelay",
+      "files.autoSaveDelay": 500
+    },
     "editor.smoothScrolling": true,// 平滑滚动
     "editor.cursorBlinking": "expand",// 光标闪烁
     "editor.cursorSmoothCaretAnimation": "on",// 光标动画
@@ -44,7 +50,6 @@
     "editor.stickyScroll.enabled": true,// 粘性滚动
 
     "terminal.integrated.shellIntegration.suggestEnabled": true,
-    
     "files.associations": {
         "stack": "cpp",
         "ostream": "cpp",
@@ -119,5 +124,12 @@
             "name": "xelatex",
             "tools": ["xelatex"]
         }
-    ]
+    ],
+    "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    }
 }
