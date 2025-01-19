@@ -5,6 +5,7 @@
       "files.autoSave": "afterDelay",
       "files.autoSaveDelay": 500
     },
+    "code-runner.runInTerminal": true,// 在终端运行
     "editor.smoothScrolling": true,// 平滑滚动
     "editor.cursorBlinking": "expand",// 光标闪烁
     "editor.cursorSmoothCaretAnimation": "on",// 光标动画
