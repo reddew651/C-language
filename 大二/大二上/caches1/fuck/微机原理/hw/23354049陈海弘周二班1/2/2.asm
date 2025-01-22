@@ -1,0 +1,23 @@
+DATA SEGMENT
+    CHAR DB 26 DUP(0)    ;DEFINE 26 BYTES MEMORY AND SET THEM TO 0
+DATA ENDS
+CODE SEGMENT
+    START:
+        MOV AX, DATA    ;PUT THE DATA TO AX
+        MOV DS, AX  ;≥ı ºªØ
+        
+        LEA DI, CHAR       ;THE FIRST ADDRESS OF CHAR TO THE DI
+        MOV CL, 26    ;26 CYCLE
+        MOV AL, 'A'
+        
+    STORE_LOOP:
+        MOV [DI],AL       ;MOV AL TO THE DI POINT THE MEMORY
+        INC DI      
+        INC AL
+        LOOP STORE_LOOP
+        
+        HLT
+ CODE ENDS
+END START    
+
+;ALL THE ENGLISH WORDS WRITE BY CHEN HAIHONG.
