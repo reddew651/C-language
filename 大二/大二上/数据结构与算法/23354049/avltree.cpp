@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<malloc.h>
+
 
 const int maxm = 100000;
 int m;

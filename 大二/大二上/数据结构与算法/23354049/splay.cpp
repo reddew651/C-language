@@ -28,15 +28,21 @@ void splayTree(int x) {
 	int g = parent[f];
 	if (g == null) { /*zig or zag*/
 		if (lchild[f] == x) { /*zig*/
-			rchild[x]=f;
-			lchild[f]=rchild[x];
-			if(lchild[f]) parent[lchild[f]] = f;
+	   		parent[x] = null;
+            parent[f] = x;
+            lchild[f] = rchild[x];
+            if (rchild[x] != null) parent[rchild[x]] = f;
+            rchild[x] = f;
+
 			//add sth. here
 		}
 		else {                /*zag*/
-			lchild[x] = f;
+	    	parent[x] = null;
+            parent[f] = x;
             rchild[f] = lchild[x];
-            if(rchild[f]) parent[rchild[f]] = f;
+            if (lchild[x] != null) parent[lchild[x]] = f;
+            lchild[x] = f;
+
 			//add sth. here
 		}
 		update(f); update(x);
@@ -45,16 +51,53 @@ void splayTree(int x) {
 	}
 
 	int h = parent[g];
-	if (lchild[g] == f && lchild[f] == x) {			/*zig-zig*/
+	if (lchild[g] == f && lchild[f] == x) {		
+        parent[g] = f;
+        lchild[g] = rchild[f];
+        if (rchild[f] != null) parent[rchild[f]] = g;
+        parent[f] = x;
+        lchild[f] = rchild[x];
+        if (rchild[x] != null) parent[rchild[x]] = f;
+        rchild[f] = g;
+        rchild[x] = f;
+			/*zig-zig*/
 		//add sth. here
 	}
-	else if (rchild[g] == f && rchild[f] == x) {	/*zag-zag*/
+	else if (rchild[g] == f && rchild[f] == x) {
+        parent[g] = f;
+        rchild[g] = lchild[f];
+        if (lchild[f] != null) parent[lchild[f]] = g;
+        parent[f] = x;
+        rchild[f] = lchild[x];
+        if (lchild[x] != null) parent[lchild[x]] = f;
+        lchild[f] = g;
+        lchild[x] = f;
+			/*zag-zag*/
 		// add. sth. here
 	}
-	else if (lchild[g] == f && rchild[f] == x) {	/*zig-zag*/
+	else if (lchild[g] == f && rchild[f] == x) {
+        parent[x] = g;
+        parent[f] = x;
+        parent[g] = x;
+        rchild[f] = lchild[x];
+        lchild[g] = rchild[x];
+        if (lchild[x] != null) parent[lchild[x]] = f;
+        if (rchild[x] != null) parent[rchild[x]] = g;
+        lchild[x] = f;
+        rchild[x] = g;	/*zig-zag*/
 		//add sth. here
 	}
-	else if (rchild[g] == f && lchild[f] == x) {	/*zag-zig*/
+	else if (rchild[g] == f && lchild[f] == x) {
+		parent[x] = g;
+        parent[f] = x;
+        parent[g] = x;
+        lchild[f] = rchild[x];
+        rchild[g] = lchild[x];
+        if (rchild[x] != null) parent[rchild[x]] = f;
+        if (lchild[x] != null) parent[lchild[x]] = g;
+        rchild[x] = f;
+        lchild[x] = g;
+			/*zag-zig*/
 		//add sth. here
 	}
 
@@ -74,9 +117,11 @@ int search(int x){ //调用search时确保root!=null
 	int p = root;
 	while (val[p] != x) {
 		if (x < val[p]){
+			p = lchild[p];
 			//add sth. here
 		}
 		else{
+			  p = rchild[p];
 			//add sth. here
 		}
 	}
@@ -91,6 +136,27 @@ void Insert(int x) {
 		root = count; parent[root] = null;
  	}
 	else { 
+		 int p = root;
+		 bool flag = true;
+        while (flag) {
+            if (x < val[p]) {
+                if (lchild[p] == null) {
+                    lchild[p] = count;
+                    parent[count] = p;
+                    break;
+                }
+                p = lchild[p];
+            } 
+			else {
+                if (rchild[p] == null) {
+                    rchild[p] = count;
+                    parent[count] = p;
+                    break;
+                }
+                p = rchild[p];
+            }
+        }
+        splayTree(count);
 	// add sth. here
 	}
 }
@@ -106,6 +172,10 @@ void Delete(int p){
 		root = s; parent[root] = null;
 	}
 	else{
+		if (p == lchild[f]) lchild[f] = s;
+        else rchild[f] = s;
+        if (s != null) parent[s] = f;
+        splayTree(f);
 	    //add sth. here
 	}
 }
@@ -116,11 +186,16 @@ int Rank(int x) {
 	while (true) {
 		int n = numNodes[lchild[q]];
 		if (x > val[q]) {
+			 cnt =cnt+ n + 1;
+            q = rchild[q];
 			//add sth. here
 		}
-		else if (x < val[q])
+		else if (x < val[q])  q = lchild[q];
 		    //add sth. here
 		else{
+			splayTree(q);
+			cnt = cnt+n + 1;
+            return cnt;
 			//add sth. here
 		}
 	}
@@ -131,10 +206,15 @@ int Get(int k) {//找第k小的数
 	while (true) {
 		int n = numNodes[lchild[q]];
 		if (k > n + 1) {
+			k -= n + 1;
+            q = rchild[q];
 		    //add sth. here
 		}
-		else if (k <= n) //add sth.here
+		else if (k <= n)  q = lchild[q];
+		//add sth.here
 		else {
+			splayTree(q);
+            return val[q];
 			//add sth. here
 		}
 	}
